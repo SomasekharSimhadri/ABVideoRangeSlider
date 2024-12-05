@@ -28,7 +28,7 @@ class ABThumbnailsManager: NSObject {
                 
                 let imageView = UIImageView(image: image)
                 imageView.alpha = 0
-                imageView.contentMode = UIViewContentMode.scaleAspectFill
+                imageView.contentMode = UIView.ContentMode.scaleAspectFill
                 imageView.clipsToBounds = true
                 imageView.frame = CGRect(x: xPos,
                                          y: 0.0,
